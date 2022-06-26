@@ -71,8 +71,8 @@ class Cancion{
 //aqui agregamos la class "pop" con un publico que anteriormente hicimos.
 class Pop: public Cancion{
 
-//aqui declaramos un "private" que sera in·ccesible no sÛlo desde otras clases 
-//y otras partes del programa, sino tambiÈn desde sus clases derivadas que sera como ejemplo la variable "sexo".
+//aqui declaramos un "private" que sera in√°ccesible no s√≥lo desde otras clases 
+//y otras partes del programa, sino tambi√©n desde sus clases derivadas que sera como ejemplo la variable "sexo".
 	private:
 		
 		char sexo;
@@ -109,8 +109,8 @@ class Pop: public Cancion{
 
 class Rock: public Cancion{
 
-//aqui declaramos un "private" que sera in·ccesible no sÛlo desde otras clases 
-//y otras partes del programa, sino tambiÈn desde sus clases derivadas que sera como ejemplo la variable "inteprete".	
+//aqui declaramos un "private" que sera in√°ccesible no s√≥lo desde otras clases 
+//y otras partes del programa, sino tambi√©n desde sus clases derivadas que sera como ejemplo la variable "inteprete".	
 	
 	private:
 		
@@ -149,8 +149,8 @@ class Rock: public Cancion{
 
 class Salsa: public Cancion{
 	
-//aqui declaramos un "private" que sera in·ccesible no sÛlo desde otras clases 
-//y otras partes del programa, sino tambiÈn desde sus clases derivadas que sera como ejemplo la variable "inteprete".	
+//aqui declaramos un "private" que sera in√°ccesible no s√≥lo desde otras clases 
+//y otras partes del programa, sino tambi√©n desde sus clases derivadas que sera como ejemplo la variable "inteprete".	
 	
 	private:
 		
@@ -222,7 +222,7 @@ int main(){
 		cout<<"Elija una opcion: ";
 		cin>>opcion;
 		
-		//aqui declaramos un switch que nos permitira ejecutar varios bloques sentencias si una variable o expresiÛn
+		//aqui declaramos un switch que nos permitira ejecutar varios bloques sentencias si una variable o expresi√≥n
 		// entera coincide 
 		//con alguno de los valores proporcionados en una lista de constantes enteras (literales int o char , por ejemplo).
 		switch(opcion){
@@ -407,7 +407,7 @@ int main(){
 	return 0;
 }
 //utlizamos un void que es para agregar las canciones al archivo
-// que es una FunciÛn con tipo de retorno nulo
+// que es una Funci√≥n con tipo de retorno nulo
 void agregarCancion(Cancion *cancion[], int &total){
 	
 	string nombre, autor, canci, interprete;
@@ -421,7 +421,7 @@ void agregarCancion(Cancion *cancion[], int &total){
 		cout<<"Se lleno la memoria"<<endl;
 					
 	}else{
-	//El ciclo do-while (InstrucciÛn hacer ñ repetir mientras) es un tipo de estructura repetitiva eficiente. 
+	//El ciclo do-while (Instrucci√≥n hacer ¬ñ repetir mientras) es un tipo de estructura repetitiva eficiente. 
 		do{
 			
 			cout<<"1. Pop\n2. Rock\n3. Salsa"<<endl;
@@ -450,7 +450,7 @@ void agregarCancion(Cancion *cancion[], int &total){
 		cout<<"Anio: ";
 		cin>>anio;
 		//Los condicionales Switch, son una estructura de control condicional,
-		// que permite definir m˙ltiples casos que puede llegar a cumplir una variable cualquiera.		
+		// que permite definir m√∫ltiples casos que puede llegar a cumplir una variable cualquiera.		
 		switch(opcionCancion){
 			
 			case 1:
@@ -564,7 +564,7 @@ void agregarCancion(Cancion *cancion[], int &total){
 	}
 	
 }
-// -------fin ELVIN--------
+
 
 void eliminarCancion(Cancion *cancion[], int &total, string buscarAutor){
 	
